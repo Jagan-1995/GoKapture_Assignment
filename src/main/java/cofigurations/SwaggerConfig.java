@@ -15,7 +15,7 @@ public class SwaggerConfig {
 
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.example.taskmanagement.controller"))
+                .apis(RequestHandlerSelectors.basePackage("dev.jagan.gokapture_assignment.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
